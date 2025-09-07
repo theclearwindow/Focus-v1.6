@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8143108b-f2c2-40d1-b4be-1b2e5448f4a0}">
+		<property name="assetPath">
+			<value>banjo_As3_very-long_forte_normal.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>3.7355102040816326</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8a269fcc-95a6-4537-bcfc-d85b138b7ccf}</destination>
+		</relationship>
+	</object>
+</objects>

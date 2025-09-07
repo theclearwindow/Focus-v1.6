@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{f3bed779-af51-4bf6-bd6d-211b4c3d682c}">
+		<property name="assetPath">
+			<value>round gears vendanges 13 10 19.aac</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8a269fcc-95a6-4537-bcfc-d85b138b7ccf}</destination>
+		</relationship>
+	</object>
+</objects>

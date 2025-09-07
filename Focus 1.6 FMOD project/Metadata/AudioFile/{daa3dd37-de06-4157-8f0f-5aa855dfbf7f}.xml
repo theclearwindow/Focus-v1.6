@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{daa3dd37-de06-4157-8f0f-5aa855dfbf7f}">
+		<property name="assetPath">
+			<value>SFX/braking 1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>7.0199999999999996</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8a269fcc-95a6-4537-bcfc-d85b138b7ccf}</destination>
+		</relationship>
+	</object>
+</objects>

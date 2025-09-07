@@ -234,8 +234,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../Focus FMOD project/Focus FMOD project.fspro
-  sourceBankPath: ../Focus FMOD project/Build
+  sourceProjectPath: Focus 1.6 FMOD project/Focus 1.6 FMOD project.fspro
+  sourceBankPath: Focus 1.6 FMOD project/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -257,13 +257,8 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - Master
-  Banks:
-  - Creatures
-  - Music
-  - SFX
-  - Voiceovers
+  MasterBanks: []
+  Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
@@ -279,18 +274,18 @@ MonoBehaviour:
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 131849
   Platforms:
-  - {fileID: 7723193171363109567}
-  - {fileID: 3960152663700942534}
+  - {fileID: -6195490146890608815}
   - {fileID: -4647846010911096952}
-  - {fileID: 3558335294751568792}
+  - {fileID: -1852890640147593227}
+  - {fileID: 171815046956889717}
+  - {fileID: 694410942017693619}
   - {fileID: 1140132553404109232}
+  - {fileID: 1872769175275019323}
+  - {fileID: 3558335294751568792}
+  - {fileID: 3960152663700942534}
   - {fileID: 4667714050246436228}
   - {fileID: 5816199496338774223}
-  - {fileID: 171815046956889717}
-  - {fileID: -6195490146890608815}
-  - {fileID: 1872769175275019323}
-  - {fileID: -1852890640147593227}
-  - {fileID: 694410942017693619}
+  - {fileID: 7723193171363109567}
   MigratedPlatforms: 09000000080000000b0000000a00000012000000060000000c0000000500000000000000150000000200000001000000
 --- !u!114 &171815046956889717
 MonoBehaviour:
@@ -727,16 +722,16 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
+  - b7716510a1f36934c87976f3a81dbf3d
   - 46fbfdf3fc43db0458918377fd40293e
-  - de700ef3f37a49b58a57ae3addf01ad9
+  - 2c5177b11d81d824dbb064f9ac8527da
+  - e7a046c753c3c3d4aacc91f6597f310d
+  - 52eb9df5db46521439908db3a29a1bbb
   - fd7c55dab0fce234b8c25f6ffca523c1
+  - 0f8eb3f400726694eb47beb1a9f94ce8
+  - de700ef3f37a49b58a57ae3addf01ad9
   - 2fea114e74ecf3c4f920e1d5cc1c4c40
   - c88d16e5272a4e241b0ef0ac2e53b73d
-  - e7a046c753c3c3d4aacc91f6597f310d
-  - b7716510a1f36934c87976f3a81dbf3d
-  - 0f8eb3f400726694eb47beb1a9f94ce8
-  - 2c5177b11d81d824dbb064f9ac8527da
-  - 52eb9df5db46521439908db3a29a1bbb
   codecChannels:
     Value: []
     HasValue: 0
