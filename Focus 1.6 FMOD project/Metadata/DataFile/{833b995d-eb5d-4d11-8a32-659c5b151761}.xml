@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="DataFile" id="{833b995d-eb5d-4d11-8a32-659c5b151761}">
+		<property name="assetPath">
+			<value>diephuisstraat balcony sounds.aac</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8a269fcc-95a6-4537-bcfc-d85b138b7ccf}</destination>
+		</relationship>
+	</object>
+</objects>
