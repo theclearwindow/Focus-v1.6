@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7810903274760427869
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3669286636470167554, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_Name
+      value: Camcorderpivot1.2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3669286636470167554, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5439771467520542658, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5439771467520542658, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: field of view
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5439771467520542658, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_FocalLength
+      value: 32.96973
+      objectReference: {fileID: 0}
+    - target: {fileID: 5439771467520542658, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_projectionMatrixMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472461717035029498, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.136
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472461717035029498, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472461717035029498, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472461717035029498, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472461717035029498, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472461717035029498, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472461717035029498, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472461717035029498, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472461717035029498, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472461717035029498, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3669286636470167554, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 754591879762257356}
+  m_SourcePrefab: {fileID: 100100000, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+--- !u!4 &1869517410797603495 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8472461717035029498, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+  m_PrefabInstance: {fileID: 7810903274760427869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &2817024042078953119 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5439771467520542658, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+  m_PrefabInstance: {fileID: 7810903274760427869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6813396367300604255 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3669286636470167554, guid: 635eb5ba1ea7d2843a2c6b6aceb00f9d, type: 3}
+  m_PrefabInstance: {fileID: 7810903274760427869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &754591879762257356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6813396367300604255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aadfca32749c70c4a8970b8835de5e7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CamcorderController
+  playerCamera: {fileID: 0}
+  camcorderCamera: {fileID: 2817024042078953119}
+  camcorderLCD: {fileID: 8400000, guid: fba9a8b089e8d8f488fd3c6c01205012, type: 2}
+  camcorderModel: {fileID: 1869517410797603495}
+  loweredOffset: {x: 0, y: -1, z: 0}
+  switchSpeed: 10
+  raiseSound:
+    Guid:
+      Data1: 1207813467
+      Data2: 1263251981
+      Data3: -1083570039
+      Data4: 550311143
+    Path: event:/Camcorder/Camcorder Up Sound
+  lowerSound:
+    Guid:
+      Data1: -212537646
+      Data2: 1128308133
+      Data3: 699559867
+      Data4: -776859759
+    Path: event:/Camcorder/Camcorder Down Sound
