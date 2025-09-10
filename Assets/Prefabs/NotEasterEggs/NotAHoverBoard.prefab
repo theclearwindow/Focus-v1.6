@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8915659675522527163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 154543080718491451, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: DefinitelyNotAHoverboard.v1
+      objectReference: {fileID: 0}
+    - target: {fileID: 273711640303132978, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 327919195653449715, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_9
+      objectReference: {fileID: 0}
+    - target: {fileID: 852725946327318411, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2148235280959113927, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2269090712818763622, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c9b9409654d01a4d93e77a2e0f1d715, type: 2}
+    - target: {fileID: 2323282621483830822, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHover_Jnt_10_FRNT_Wheel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3363711002140754937, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_4_BCK_Wheel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285032921875104320, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHover_Board
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743015341249202811, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.646118
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7471595
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.646118
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8660332
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.49998665
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -59.998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951486666862787494, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6147708705880850532, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Front1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6148096176764542545, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316126440734897275, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Back3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6323486854352510908, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Front2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475117691310186780, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotAHoverBoard Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6654380902510043921, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800975398428818984, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7765602802300128301, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946029121829990959, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8089180371202390689, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125469461952449544, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Back1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8146739951932126305, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Back2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292428882427979884, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Front3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8748738163617222182, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      propertyPath: m_Name
+      value: NotHoverWheel_Jnt_13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 2837973595098772816, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+    - {fileID: 1089156803860973127, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+    - {fileID: 5019179206718154649, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+    - {fileID: 3093296717837873722, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6475117691310186780, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8485144964952497529}
+  m_SourcePrefab: {fileID: 100100000, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+--- !u!1 &2478936956163018407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6475117691310186780, guid: a6966d42a3ec0624c97a95028391dc8d, type: 3}
+  m_PrefabInstance: {fileID: 8915659675522527163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8485144964952497529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478936956163018407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94dc59b4edac43447aac42284c95d2bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Hoverboard
+  hoverHeight: 0.5
+  hoverBobSpeed: 2
+  hoverBobAmount: 0.05
+  speedBoostMultiplier: 1.2
+  interactDistance: 2
+  hoverHumSFX:
+    Guid:
+      Data1: -722315757
+      Data2: 1327567853
+      Data3: -1134096461
+      Data4: -1561670967
+    Path: event:/Camcorder/Focus Object Sound
+  easterEggText: {fileID: 0}
+  messageDuration: 2
