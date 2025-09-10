@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2804276602227271856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6544244731901233485}
+  - component: {fileID: 7274030901153560903}
+  m_Layer: 0
+  m_Name: CamcorderRoot1.3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6544244731901233485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804276602227271856}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8986771173791331399}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7274030901153560903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804276602227271856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9b4d38a87a5e784bbac9e38c1aece30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CamcorderController
+  playerCamera: {fileID: 0}
+  camcorderCamera: {fileID: 4782440836579942527}
+  camcorderLCD: {fileID: 8400000, guid: fba9a8b089e8d8f488fd3c6c01205012, type: 2}
+  camcorderModel: {fileID: 8986771173791331399}
+  loweredOffset: {x: 0, y: -0.5, z: 0}
+  switchSpeed: 10
+  raiseSound:
+    Guid:
+      Data1: 1207813467
+      Data2: 1263251981
+      Data3: -1083570039
+      Data4: 550311143
+    Path: event:/Camcorder/Camcorder Up Sound
+  lowerSound:
+    Guid:
+      Data1: -212537646
+      Data2: 1128308133
+      Data3: 699559867
+      Data4: -776859759
+    Path: event:/Camcorder/Camcorder Down Sound
+--- !u!1001 &7297714768766484192
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6544244731901233485}
+    m_Modifications:
+    - target: {fileID: 1025319265754626625, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869517410797603495, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.033
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869517410797603495, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.73399997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869517410797603495, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.104
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869517410797603495, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869517410797603495, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869517410797603495, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869517410797603495, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869517410797603495, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869517410797603495, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869517410797603495, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5555341445347468785, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813396367300604255, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_Name
+      value: Camcorderpivot1.2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813396367300604255, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637402262184747604, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041458157881933885, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 754591879762257356, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+--- !u!20 &4782440836579942527 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2817024042078953119, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+  m_PrefabInstance: {fileID: 7297714768766484192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8986771173791331399 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869517410797603495, guid: 3d87e7f193ad4554d90ce0632f6388fe, type: 3}
+  m_PrefabInstance: {fileID: 7297714768766484192}
+  m_PrefabAsset: {fileID: 0}

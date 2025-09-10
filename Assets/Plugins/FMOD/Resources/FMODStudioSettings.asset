@@ -234,7 +234,7 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Focus 1.6 FMOD project/Focus FMOD project.fspro
+  sourceProjectPath: Focus 1.6 FMOD project/Focus 1.6 FMOD project.fspro
   sourceBankPath: Focus 1.6 FMOD project/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5

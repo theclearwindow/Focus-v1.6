@@ -2,9 +2,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using FMODUnity;
 
-[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Rigidbody), typeof(CapsuleCollider))]
 public class FPVCharacterController : MonoBehaviour
 {
+
+    //Not a hoverboard controller
     [Header("Movement Settings")]
     public float walkSpeed = 3f;
     public float sprintSpeed = 6f;
@@ -21,25 +23,32 @@ public class FPVCharacterController : MonoBehaviour
     private float stepTimer;
 
     [Header("Footstep Surfaces")]
-    public LayerMask groundLayer;          // Layers considered as ground
+    public LayerMask groundLayer;           // Layers considered as ground
     public string defaultSurfaceTag = "Default";
     public EventReference defaultFootstep;
     public EventReference stoneFootstep;
     public EventReference metalFootstep;
     public EventReference woodFootstep;
 
+    [Header("Head Bob Settings")]
+    public bool EnableHeadBob = true;
+
     private Rigidbody rb;
     private CapsuleCollider col;
     private float currentStamina;
 
-    void Awake()
+    private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         col = GetComponent<CapsuleCollider>();
+        if (rb == null) Debug.LogError("Rigidbody component missing!");
+        if (col == null) Debug.LogError("CapsuleCollider component missing!");
+
         currentStamina = maxStamina;
+        stepTimer = stepInterval;
     }
 
-    void Update()
+    private void Update()
     {
         HandleMovement();
         HandleFootsteps();
@@ -49,7 +58,7 @@ public class FPVCharacterController : MonoBehaviour
     /// <summary>
     /// Handles player movement including walking, sprinting, and stamina consumption.
     /// </summary>
-    void HandleMovement()
+    private void HandleMovement()
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
@@ -68,7 +77,8 @@ public class FPVCharacterController : MonoBehaviour
             // Regenerate stamina when not sprinting
             currentStamina += staminaRegenRate * Time.deltaTime;
         }
-        currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
+
+        currentStamina = Mathf.Clamp(currentStamina, 0f, maxStamina);
 
         // Convert input direction to world space
         Vector3 move = transform.TransformDirection(inputDir) * speed;
@@ -82,20 +92,18 @@ public class FPVCharacterController : MonoBehaviour
     /// <summary>
     /// Plays footstep sounds when the player is moving and grounded.
     /// </summary>
-    void HandleFootsteps()
+    private void HandleFootsteps()
     {
-        if (!IsMoving() || !IsGrounded())
-            return;
+        if (!IsMoving() || !IsGrounded()) return;
 
         stepTimer -= Time.deltaTime;
-        if (stepTimer > 0) return;
+        if (stepTimer > 0f) return;
 
         stepTimer = stepInterval;
 
-        // Cast a ray downward to detect surface type
         if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, col.height / 2 + 0.5f, groundLayer))
         {
-            string tag = hit.collider.tag;
+            string tag = hit.collider.CompareTag("") ? defaultSurfaceTag : hit.collider.tag;
             EventReference footstepEvent = GetFootstepEvent(tag);
             RuntimeManager.PlayOneShot(footstepEvent, transform.position);
         }
@@ -104,7 +112,7 @@ public class FPVCharacterController : MonoBehaviour
     /// <summary>
     /// Maps surface tag to FMOD footstep event.
     /// </summary>
-    EventReference GetFootstepEvent(string surfaceTag)
+    private EventReference GetFootstepEvent(string surfaceTag)
     {
         switch (surfaceTag)
         {
@@ -118,17 +126,17 @@ public class FPVCharacterController : MonoBehaviour
     /// <summary>
     /// Returns true if the player is pressing movement keys.
     /// </summary>
-    bool IsMoving() => Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0;
+    private bool IsMoving() => Mathf.Abs(Input.GetAxis("Horizontal")) > 0f || Mathf.Abs(Input.GetAxis("Vertical")) > 0f;
 
     /// <summary>
     /// Returns true if the player is grounded.
     /// </summary>
-    bool IsGrounded() => Physics.Raycast(transform.position, Vector3.down, col.height / 2 + 0.1f, groundLayer);
+    private bool IsGrounded() => Physics.Raycast(transform.position, Vector3.down, col.height / 2 + 0.1f, groundLayer);
 
     /// <summary>
     /// Updates the stamina UI slider if assigned.
     /// </summary>
-    void UpdateStaminaUI()
+    private void UpdateStaminaUI()
     {
         if (staminaBar != null)
         {
